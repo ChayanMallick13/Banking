@@ -3,7 +3,7 @@
 #include <stdlib.h>
 void printing_reciept(FILE *ptr, float total_amount, char *account_number, char *name)
 {
-    fprintf(ptr, "\t\t\t\t\t\t\t\t\t\tBharat Bank Private Limited\n");
+    fprintf(ptr, "\t\t\t\t\t\t\t\t\t\Punjab Bank Private Limited\n");
     fprintf(ptr, "\t\t\t\t\t\t\t\t\t Alampur,New Kolorah,Howrah-711302\n\n\n\n");
     fprintf(ptr, "Date  :-   %s\n\n", __DATE__);
     fprintf(ptr, "Time   :-    %s\n\n", __TIME__);
